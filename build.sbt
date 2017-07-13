@@ -3,6 +3,11 @@ organization := "org.stanch"
 name := "play-json-zipper"
 
 version := "2.0"
+publishArtifact := true
+
+bintrayOrganization := Some("alex1712")
+bintrayRepository := "maven"
+bintrayPackage := "play-json-zipper"
 
 scalaVersion := "2.12.2"
 crossScalaVersions := Seq("2.11.11", scalaVersion.value)
